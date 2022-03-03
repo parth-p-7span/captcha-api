@@ -1,0 +1,7 @@
+Flask==2.0.2
+Flask-RESTful==0.3.9
+object-detection
+opencv-python==4.5.5.62
+opencv-python-headless==4.5.5.62
+protobuf==3.19.4
+tensorflow==2.8.0
