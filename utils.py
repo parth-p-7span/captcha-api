@@ -11,7 +11,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'  # Suppress TensorFlow logging (1)
 class Predictor:
     def __init__(self):
         self.uri = None
-        PATH_TO_SAVED_MODEL = "saved_model/"
+        PATH_TO_SAVED_MODEL = "saved_model/1/"
         PATH_TO_LABELS = 'labelmap.pbtxt'
         # self.uri = uri
         self.detect_fn = tf.saved_model.load(PATH_TO_SAVED_MODEL)
