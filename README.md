@@ -2,6 +2,14 @@
 Python flask API that resolve base64 captcha image. 
 
 ----
+
+
+## Prerequisite
+
+- Python3
+- Flask
+- [TensorFlow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
+
 ## Installation
 1. Clone this repository to your workspace
 ```shell
